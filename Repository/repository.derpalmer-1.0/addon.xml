@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id="repository.derpalmer" name="derpalmer Kodi" version="1.0" provider-name="derpalmer Kodi">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="derpalmer Kodi">
+    <info compressed="true">http://derpalmer.github.io/kodirepo/Plugins/addons.xml</info>
+    <checksum>http://derpalmer.github.io/kodirepo/Plugins/addons.xml.md5</checksum>
+    <datadir zip="true">http://derpalmer.github.io/kodirepo/Plugins</datadir>
+    <hashes>true</hashes>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>yoyoyo</summary>
+    <description>How to create a Kodi Repository V2</description>
+    <platform>all</platform>
+  </extension>
+</addon>
